@@ -119,6 +119,9 @@ margin-bottom:15px;
     #about>p:first-child{
         padding-top:25px;
     }
+    #myimg>img{
+        width:90%;
+    }
 }
 @media all and (max-width:450px){
     #about>p:first-child{

@@ -39,7 +39,48 @@ export const Projects = () => {
           <GoProject />
         </span>
       </p>
-
+      <div className="projectCard">
+        <div className="prCardImg">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Face Detection System"
+          />
+        </div>
+        <div className="prCardContent">
+          <p>Face Detection System</p>
+          <p>
+            The objective of this program is to detect faces in real-time and
+            keep track of the detected objects. It uses the OpenCV library for
+            image processing and can identify and track faces efficiently.
+          </p>
+          <p>
+            <span>Tech Stack: </span>Python, OpenCV, TensorFlow/Keras, Face
+            Recogination
+          </p>
+          <div className="prCardTs">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
+              alt="Python"
+              className="tsIc"
+            />
+            <img
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1618654175386/6KpX54oVc.png?auto=compress,format&format=webp"
+              alt="Open Cv"
+              className="tsIc"
+            />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESxlZ_YtXiLT3ZXI5XmIeh41nTyqxRSbcVA&s"
+              alt="tensor/flow"
+              className="tsIc"
+            />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDCDqY-ogFXA-6IXeRkqURrCd85S1ioYJboQ&s"
+              alt="Pytorch"
+              className="tsIc"
+            />
+          </div>
+        </div>
+      </div>
       {/* Sorting Algorithm Visualiser */}
       <div className="projectCard">
         <div className="prCardImg">
@@ -57,7 +98,7 @@ export const Projects = () => {
             such as Bubble Sort and Selection Sort.
           </p>
           <p>
-            <span>Tech Stack: </span>Python, Tkinter.
+            <span>Tech Stack: </span>Python, Tkinter, Numpy
           </p>
           <div className="prCardTs">
             <img
@@ -70,42 +111,16 @@ export const Projects = () => {
               alt="Tkinter"
               className="tsIc"
             />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRC2C9EVtvZjW_wQ3f9bEP2Fgla230C3kVYQ&s"
+              alt="numpy"
+              className="tsIc"
+            />
           </div>
         </div>
       </div>
 
       {/* Face Detection System */}
-      <div className="projectCard">
-        <div className="prCardImg">
-          <img
-            src="https://via.placeholder.com/300"
-            alt="Face Detection System"
-          />
-        </div>
-        <div className="prCardContent">
-          <p>Face Detection System</p>
-          <p>
-            The objective of this program is to detect faces in real-time and
-            keep track of the detected objects. It uses the OpenCV library for
-            image processing and can identify and track faces efficiently.
-          </p>
-          <p>
-            <span>Tech Stack: </span>Python, OpenCV.
-          </p>
-          <div className="prCardTs">
-            <img
-              src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
-              alt="Python"
-              className="tsIc"
-            />
-            <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1618654175386/6KpX54oVc.png?auto=compress,format&format=webp"
-              alt="Open Cv"
-              className="tsIc"
-            />
-          </div>
-        </div>
-      </div>
 
       {/* Bank Database System */}
       <div className="projectCard">
